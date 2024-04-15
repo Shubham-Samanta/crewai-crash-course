@@ -16,7 +16,7 @@ class ExaSearchToolset():
       return ExaSearchToolset._exa().find_similar(url, num_results=3)
 
   @tool
-  def get_contents(ids: str):
+  def get_contents(ids: list):
       """Get the contents of a webpage.
       The ids must be passed in as a list, a list of ids returned from `search`.
       """
